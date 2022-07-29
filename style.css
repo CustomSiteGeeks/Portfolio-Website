@@ -1,0 +1,316 @@
+/* Body Start */
+body  {
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+/* Body Finish */
+
+/* Navigation Bar Start */
+.header {
+  padding: 0 45px;
+  background:url(/pexels-pixabay-326333.jpg);
+  color: #FFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav li {
+  margin-left: 20px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  transition: all 0.3s ease-out;
+  font-size: large;
+  font-family: sans-serif;
+  padding: 35px;
+}
+
+.nav a:hover {
+  color: #c5cae9;
+  transform: rotate(6deg);
+}
+
+/* Navigation Bar End */
+
+
+/* Image of workers and containers */
+.hero {
+  background:url(/CSGWorkers.jpg);
+  padding: 60px 45px;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-inner {
+  max-width: 760px;
+}
+
+.hero p {
+  font-size: 1.18rem;
+  line-height: 1.6;
+  color: white;
+}
+
+/* Cool animation starting */
+
+.hero h1 {
+  font-weight: 300;
+  font-family: sans-serif;
+  font-size: 3rem;
+  font-weight: 100;
+  line-height: 1.5;
+  text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+  margin: 0;
+  color:#FFA500;
+}
+
+.hero h1 span {
+  font-size: 40px;
+  margin-left: 40px;
+}
+
+
+.button {
+  background-color: #FFA500;
+  color: #FFF;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 1.18rem;
+  display: inline-block;
+}
+
+
+.message {
+  background-color: #FFA500;
+  color: #333;
+  display: block;
+  font-weight: 900;
+  overflow: hidden;
+  position: absolute;
+  padding-left: 0.5rem;
+  top: 0.2rem;
+  left: 270px;
+  animation: openclose 7s ease-in-out infinite;
+}
+
+h1 span {
+  font-family: sans-serif;
+  font-weight: 800;  
+}
+
+.word1, .word2 , .word3 {
+  font-family: sans-serif;
+}
+
+
+@keyframes openclose {
+  0% {
+    top: 0.2rem;
+    width: 0;
+  }
+  5% {
+    width: 0;
+  }
+  15% {
+    width: 230px;
+  }
+  30% {
+    top: 0.2rem;
+    width: 230px;
+  }
+  33% {
+    top: 0.2rem;
+    width: 0;
+  }
+  35% {
+    top: 0.2rem;
+    width: 0;
+  }
+  38% {
+    top: -4.5rem;
+    
+  }
+  48% {
+    top: -4.5rem;
+    width: 190px;
+  }
+  62% {
+    top: -4.5rem;
+    width: 190px;
+  }
+  66% {
+    top: -4.5rem;
+    width: 0;
+    text-indent: 0;
+  }
+  71% {
+    top: -9rem;
+    width: 0;
+    text-indent: 5px;
+  }
+  86% {
+    top: -9rem;
+    width: 285px;
+  }
+  95% {
+    top: -9rem;
+    width: 285px;
+  }
+  98% {
+    top: -9rem;
+    width: 0;
+    text-indent: 5px;
+  }
+  100% {
+    top: 0;
+    width: 0;
+    text-indent: 0;
+  }
+}
+
+/* End of Animation */
+/* Image of workers and containers end*/
+
+
+.features {
+  background:url(/pexels-pixabay-326333.jpg);
+}
+
+.features-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-column-gap: 45px;
+  grid-row-gap: 45px;
+}
+
+.featured-item h3 {
+  text-align: center;
+  color: #FFA500;
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin: 0;
+}
+
+.featured-item p {
+  margin: 0;
+  line-height: 1.6;
+  color: white;
+}
+
+.features {
+  background-color: #e8eaf6;
+  padding: 60px 45px;
+}
+
+/* Div certifcation Start */
+
+.cert {
+  background:url(/pexels-pixabay-326333.jpg);
+  padding: 60px 45px;
+}
+
+.cert h1 {
+  text-align: center;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.cert-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-column-gap: 45px;
+  grid-row-gap: 45px;
+}
+
+.cert-item h3 {
+  text-align: center;
+  color: #FFA500;
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.cert-item img {
+  max-width: auto;
+  max-height: 300px;
+  align-items: center;
+  border-radius: 10%;
+  will-change: transform;
+  transition: transform 450ms;
+}
+
+.cert-item img:hover {
+  transition: transform 125ms;
+  transform: translateY(-20px);
+}
+
+/* Div certifcation End */
+
+/* Footer Start */
+
+  .footer {
+    display: flex;
+    flex-direction: row-reverse;
+    color: white;
+    font-size: .9rem;
+    background:#634631;
+    margin: 0;
+   }
+
+  .container  {
+    list-style: none;
+  }
+
+  .container  a {
+    display: inline-block;
+    filter: invert(1);
+    margin-right: 20px;
+    transform: scale(0.5);
+    transition: 0.5s;
+  }
+
+  .container  a:hover {
+    transform: scale(0.5) translateY(-15px);
+  }
+  
+.middlespace
+{
+  justify-content: space-between;
+}
+
+  .copyright {
+display: inline-block;
+  }
+
+  .copyright p {
+    display: inline-block;
+    color: white;
+    flex: 1;
+    font-size: 1.4rem;  
+    font-family: sans-serif;
+    align-items: left;
+  }
+
+  /* Footer Ending */
